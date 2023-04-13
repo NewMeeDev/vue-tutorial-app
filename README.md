@@ -1,8 +1,36 @@
-# vue-3-crud
+# vue-3-crud (uses REST-Api of Repo "spring-boot-one-to-many")
 
-## Project setup
+## App Overview
+
+![App Overview](overview.png)
+
+![All implemented APIs Overview](apis.png)
+
+
+App runs on:
+http://localhost:8081/  
+
+<br>
+
+
+
+
+
+## App setup
 ```
-npm install
+vue create vue-3-crud
+
+--> choose Default ([Vue 3] babel, eslint)
+```
+
+
+
+
+### Install packages
+```
+npm install bootstrap@4.6.0 jquery popper.js
+npm install vue-router@4
+npm install axios
 ```
 
 ### Compiles and hot-reloads for development
@@ -19,6 +47,8 @@ npm run build
 ```
 npm run lint
 ```
+
+
 
 ### Customize configuration
 See [Configuration Reference](https://cli.vuejs.org/config/).
