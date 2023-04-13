@@ -1,6 +1,9 @@
-# vue-3-crud (uses REST-Api of Repo "spring-boot-one-to-many")
+# vue-3-crud 
+
 
 ## App Overview
+
+This App uses the REST-Api of my Repo "spring-boot-one-to-many" !!!
 
 ![App Overview](overview.png)
 
